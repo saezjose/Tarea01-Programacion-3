@@ -1,6 +1,13 @@
 #FastAPI App#
 # main.py
 
+#para ejecutar la fast api utiliza#
+
+#python -m uvicorn main:app --reload#
+
+#en http://localhost:8000/docs #
+
+
 from fastapi import FastAPI, HTTPException
 from misiones import crear_personaje, asignar_mision, completar_mision, ver_misiones
 from Exceptions import PersonajeNoEncontrado, MisionNoDisponible
